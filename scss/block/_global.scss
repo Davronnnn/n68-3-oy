@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+}
+.toggle {
+    display: none;
+}
+
+.btn {
+    padding: 10px 67px;
+    border: none;
+    color: #fff;
+    background-color: #535765;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    //.btn
+    &:hover {
+        background-color: red;
+    }
+    &:active {
+        background-color: #53576590;
+    }
+}

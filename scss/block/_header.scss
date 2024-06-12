@@ -1,0 +1,21 @@
+.header {
+    margin-top: 24px;
+    padding-bottom: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    border-bottom: 1px solid #ccc;
+
+    &__left {
+        display: flex;
+        gap: 84px;
+        align-items: end;
+    }
+
+    &__list {
+        display: flex;
+        gap: 24px;
+    }
+}
